@@ -19,7 +19,7 @@ const closeModal = () => {
 const confirmDeletion = () => {
   store.deleteTab(route.params.lat)
   closeModal();
-  router.push('/weather')
+  router.push('/')
   
 };
 defineExpose({
