@@ -21,14 +21,14 @@ defineExpose({
     <div class="modal-overlay" v-if="isModalOpen">
   <div class="modal-container">
     <div class="modal-header">
-      <h2>Confirm Deletion</h2>
+      <h2>No more tabs are avalible</h2>
       <button class="close-button" @click="closeModal">&times;</button>
     </div>
     <div class="modal-body">
       <p></p>
     </div>
     <div class="modal-footer">
-      <button class="action-button cancel-button" @click="closeModal">Cancel</button>
+      <button class="action-button cancel-button" @click="closeModal">{{  $t(cancel) }}</button>
     </div>
   </div>
 </div>
