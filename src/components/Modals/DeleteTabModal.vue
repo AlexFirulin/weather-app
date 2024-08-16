@@ -36,11 +36,11 @@ defineExpose({
       <button class="close-button" @click="closeModal">&times;</button>
     </div>
     <div class="modal-body">
-      <p>Are you sure you want to delete this tab? This action cannot be undone.</p>
+      <p>{{ $t('delete.confirm') }}</p>
     </div>
     <div class="modal-footer">
-      <button class="action-button cancel-button" @click="closeModal">Cancel</button>
-      <button class="action-button delete-button" @click="confirmDeletion">Delete</button>
+      <button class="action-button cancel-button" @click="closeModal">{{ $t('cancel') }}</button>
+      <button class="action-button delete-button" @click="confirmDeletion">{{ $t('delete') }}</button>
     </div>
   </div>
 </div>

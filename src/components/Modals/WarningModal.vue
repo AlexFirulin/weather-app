@@ -25,7 +25,7 @@ defineExpose({
       <button class="close-button" @click="closeModal">&times;</button>
     </div>
     <div class="modal-body">
-      <p>No more saved tabs are avaliable</p>
+      <p></p>
     </div>
     <div class="modal-footer">
       <button class="action-button cancel-button" @click="closeModal">Cancel</button>

@@ -4,6 +4,10 @@
     "save.sity" : "You are currently previewing the city , click + icon to start tracking this city",
     "one.day" : "One day",
     "five.days" : "Five days",
-    "feels.like" : "Feels like"
+    "feels.like" : "Feels like",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "delete.confirm": "Are you sure you want to delete this tab? This action cannot be undone.",
+    "more.tabs": "No more saved tabs are avaliable"
   }
   
